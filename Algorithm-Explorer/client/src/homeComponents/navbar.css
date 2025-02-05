@@ -1,0 +1,70 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #4a4e69, #9a8c98); /* Gradient background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.navbar:hover {
+    background: linear-gradient(90deg, #9a8c98, #4a4e69); /* Reverse gradient on hover */
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-brand:hover {
+    color: #f8f8f8; /* Lighter color on hover */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Align icon and text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+
+.nav-icon {
+    margin-right: 8px; /* Space between icon and text */
+    color: #ffcc00; /* Color for icons */
+    transition: color 0.3s; /* Smooth color transition for icons */
+}
+
+.nav-link:hover .nav-icon {
+    color: #f8f8f8; /* Change icon color on hover */
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.auth-links {
+    display: flex;
+    gap: 15px; /* Space between auth links */
+}
+
+.profile {
+    color: #ffffff; /* Profile icon color */
+}

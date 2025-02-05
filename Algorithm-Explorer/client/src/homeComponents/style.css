@@ -1,0 +1,58 @@
+.type{
+    width: 100%;
+    align-content: center;
+    background-color: #393a3d;
+    text-align: center;
+    font-family: "Roboto Slab ExtraLight";
+}
+
+.Cards{
+    background-color: #5729c2;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    position: center;
+    child-align: middle;
+}
+.page-footer{
+    background-color: #282c34;
+}
+.footer-copyright{
+    color:white;
+    background-color: rgb(70, 69, 67);
+}
+.greet{
+    text-align: center;
+    background-color: #414044;
+    color: white;
+    padding: 10px;
+}
+
+/* Cards Component Styles */
+.card-container {
+    margin: 15px; /* Space between cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card-container:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.search-input {
+    margin: 20px 0; /* Space above and below the search input */
+    width: 300px; /* Fixed width for the search input */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Additional styles for cards */
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Cards .d-flex {
+    flex-direction: column; /* Stack items vertically */
+}
