@@ -20,7 +20,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/shivampratap16/Algorithm-Visualizer.git
+   git clone https://github.com/shivampratap16/Algorithm-Explorer.git
    cd Algorithm-Visualizer
    ```
 
